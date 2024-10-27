@@ -1,0 +1,18 @@
+{
+  "groups": [
+    {
+      "name": "db1.datasource",
+      "type": "javax.sql.DataSource",
+      "sourceType": "gaur.example.in.sql.SqlConfig",
+      "sourceMethod": "public javax.sql.DataSource dataSource() "
+    },
+    {
+      "name": "db2.datasource",
+      "type": "javax.sql.DataSource",
+      "sourceType": "gaur.example.in.postgres.PostgresConfig",
+      "sourceMethod": "public javax.sql.DataSource PostgresdataSource() "
+    }
+  ],
+  "properties": [],
+  "hints": []
+}
